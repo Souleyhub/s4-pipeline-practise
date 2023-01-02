@@ -225,7 +225,7 @@ docker push devopseasylearning2021/s4-weather:${BUILD_NUMBER}$WEATHERTag
             }
         }
 
-    stage('update helm charts-dev') {
+    stage('update-helm charts-dev') {
          when{ 
           expression {
             env.Environment == 'DEV' }
