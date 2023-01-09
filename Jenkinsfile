@@ -289,7 +289,7 @@ EOF
 	             git config --global user.name "souleyhub"
                      git config --global user.email "souleys15@gmail.com"
                 rm -rf s4-pipeline-practise || true
-                git clone https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git
+                git clone https://souleyhub:$TOKEN@github.com/Souleyhub/s4-pipeline-practise.git
                 cd s4-pipeline-practise/CHARTS
  cat <<EOF > sanbox-values.yaml
          image:
@@ -309,7 +309,7 @@ EOF
 
                 git add -A
                 git commit -m "testing jenkins"
-                git push https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git
+                git push https://souleyhub:$TOKEN@github.com/Souleyhub/s4-pipeline-practise.git
                    '''
 	            }
                 }
@@ -330,7 +330,7 @@ EOF
 	             git config --global user.name "souleyhub"
                      git config --global user.email "souleys@gmail.com"
                 rm -rf s4-pipeline-practise || true
-                git clone https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git
+                git clone https://souleyhub:$TOKEN@github.com/Souleyhub/s4-pipeline-practise.git
                 cd s4-pipeline-practise/CHARTS
 cat <<EOF > prod-values.yaml
          image:
@@ -350,7 +350,7 @@ EOF
                  
 		git add -A
                 git commit -m "testing jenkins"
-                git push https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git}
+                git push https://souleyhub:$TOKEN@github.com/Souleyhub/s4-pipeline-practise.git}
                   '''
 		    }
 		}
