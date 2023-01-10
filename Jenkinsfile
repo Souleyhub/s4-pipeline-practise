@@ -349,7 +349,7 @@ EOF
                  
 		git add -A
                 git commit -m "testing jenkins"
-                git push https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git ||
+                git push https://souleyhub:$TOKEN@github.com/souleyhub/s4-pipeline-practise.git || true
                   '''
 		    }
 		}
